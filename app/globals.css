@@ -65,8 +65,12 @@ body {
     background: linear-gradient(89.71deg, rgba(245, 189, 77, 0.3) 0.36%, rgba(248, 146, 34, 0.3) 99.88%);
   }
 
-  .borderGradient {
-    background: linear-gradient(89.71deg, #F5BD4D 0.36%, #F89222 99.88%);
+  .inputfiledParant {
+    background: linear-gradient(89.71deg, rgba(245, 189, 77, 0.3) 0.36%, rgba(248, 146, 34, 0.3) 99.88%);
+  }
+
+  .inputfiled:focus {
+    outline: 1px solid #F89222;
   }
 
   .tringlePathleft {
