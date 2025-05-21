@@ -1,4 +1,5 @@
-import { IoHomeOutline } from "react-icons/io5";
+import Image from "next/image";
+import homeicon from "../../public/homeIcons.png";
 import TalktoMeBtn from "./TalktomeButton";
 
 const TopBar = () => {
@@ -7,7 +8,7 @@ const TopBar = () => {
             <div className="flex items-center justify-end lg:justify-between h-full pr-[0px] lg:pr-[53px]">
                 <div className="hidden lg:flex items-center gap-[16px]">
                     <div className="bg-red-900 w-[40px] rounded-md h-[40px] flex items-center justify-center bgGredient">
-                        <IoHomeOutline className="text-2xl text-[#FFFFFF]" />
+                        <Image className="w-[18px] h-[18px]" src={homeicon} alt="home_icon" />
                     </div>
                     <h3 className="font-bold text-2xl text-[#FFFFFF]">Home</h3>
                 </div>
