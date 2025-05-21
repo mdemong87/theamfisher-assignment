@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎨 Responsive Portfolio Website – Front-end Developer Assignment
 
-## Getting Started
+> **Last Updated:** May 18, 2025  
+> **Deadline:** May 22, 2025, 11:00 AM
 
-First, run the development server:
+This project is part of a front-end developer assessment focused on converting a Figma design into a high-performance, accessible, and responsive portfolio website using modern development tools.
+
+---
+
+## 📌 Project Overview
+
+The goal of this project is to demonstrate proficiency in building a modern front-end application by implementing:
+
+- Pixel-perfect conversion of a Figma design.
+- Fully responsive design for all screen sizes.
+- Accessible and SEO-optimized structure.
+- High performance with 90+ Google PageSpeed score.
+- Clean, maintainable, and production-ready code.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) or [Astro](https://astro.build/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Version Control:** Git
+- **Hosting:** Vercel / Netlify / Cloudflare Pages
+
+---
+
+## 🧪 Features & Highlights
+
+- 🔄 Fully responsive layout
+- ✨ Subtle animations and interactivity
+- 📈 Optimized for performance (Google PageSpeed 90+)
+- ♿ Accessibility checked with [WAVE](https://wave.webaim.org/)
+- 🔍 SEO best practices implemented
+- ✅ Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+
+---
+
+## 🚀 Live Site
+
+**Deployed URL:** [https://your-live-site-url.com](https://your-live-site-url.com)
+
+---
+
+## 🧰 Getting Started
+
+### 📦 Prerequisites
+
+- Node.js (v16+)
+- npm or yarn
+- Git
+
+### 🚚 Installation
+
+1. **Clone the repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name

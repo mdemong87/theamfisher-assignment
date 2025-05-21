@@ -1,0 +1,31 @@
+import DownloadCvBtn from "./DownloadCVBtn";
+
+const HeroContent = () => {
+    return (
+        <div className=" w-full w-full flex items-center">
+            <div className="h-fit w-[85%] pl-[39px]">
+                <span className="textGredient text-bsae font-bold pb-[12px]">INTRODUCTION</span>
+                <h1 className="font-bold text-5xl leading-[63px] pb-[18px]">
+                    I'm a Creative Developer & <br />
+                    UI/UX Design Expert
+                </h1>
+
+                <h5 className="text-base font-bold">24 years   /   Robert Smith   /   UK London</h5>
+                <p className="font-medium text-base text-[#C6C6C6] pt-[36px] pb-[38px]">
+                    Prolific, full stack web developer with a passion for metrics and beating former
+                    "best-yets. Prototyped 25 new product features per year for Flexor, Inc.
+                    Decreased rework by 22% and costs by 15%. Consistently receive high
+                    user experience scores for all web development projects, including a
+                    55% increase for Flexor, Inc. Passionate about building world class web
+                    applications. One of my sites received a 2020 Webby for Best
+                    Navigation and Structure.
+                </p>
+
+                <DownloadCvBtn />
+
+            </div>
+        </div>
+    )
+}
+
+export default HeroContent;

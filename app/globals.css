@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #171B1A;
+  --foreground: #121414;
 }
 
 @theme inline {
@@ -14,13 +15,92 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #171B1A;
+    --foreground: #121414;
   }
 }
+
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+
+/* Hide scrollbar for all elements */
+* {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, and Opera */
+}
+
+
+@layer utilities {
+
+  .heroTopPadding {
+    padding-top: 106px !important;
+  }
+
+  .textGredient {
+    background: linear-gradient(90deg, #F5BD4D 0%, #F89222 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bgGredient {
+    background: linear-gradient(to right, #F5BD4D, #F89222);
+    color: #FFFFFF;
+  }
+
+  .cardbaseGradient {
+    color: #FFFFFF;
+    background: linear-gradient(89.71deg, rgba(245, 189, 77, 0.3) 0.36%, rgba(248, 146, 34, 0.3) 99.88%);
+  }
+
+  .borderGradient {
+    background: linear-gradient(89.71deg, #F5BD4D 0.36%, #F89222 99.88%);
+  }
+
+  .tringlePathleft {
+    background: var(--background);
+    width: 100%;
+    height: 90px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+
+  }
+
+  .tringlePathright {
+    background: var(--background);
+    width: 100%;
+    height: 90px;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+
+  }
+
+  .tabbarshadow {
+    box-shadow: 0px 0px 25px 10px #FFFFFF0F;
+  }
+
+  .herosocialboxshadow {
+    box-shadow: 0px -10px 25px 0px #FFFFFF17;
+
+
+  }
+
+}
+
+
+
+@media (min-width: 1024px) {
+  .headerleftBorder {
+    border-left: 1px solid #353535;
+  }
 }
