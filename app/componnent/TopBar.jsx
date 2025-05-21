@@ -3,8 +3,8 @@ import TalktoMeBtn from "./TalktomeButton";
 
 const TopBar = () => {
     return (
-        <nav className="col-span-6 lg:col-span-8 headerleftBorder px-[39px] h-full">
-            <div className="flex items-center justify-between h-full pr-[53px]">
+        <nav className="col-span-6 lg:col-span-8 headerleftBorder px-[24px] lg:px-[39px] h-full">
+            <div className="flex items-center justify-end lg:justify-between h-full pr-[0px] lg:pr-[53px]">
                 <div className="hidden lg:flex items-center gap-[16px]">
                     <div className="bg-red-900 w-[40px] rounded-md h-[40px] flex items-center justify-center bgGredient">
                         <IoHomeOutline className="text-2xl text-[#FFFFFF]" />

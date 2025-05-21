@@ -95,6 +95,18 @@ body {
 
   }
 
+  .portfolioLinkShadow {
+    box-shadow: 0px 0px 6px 6px #FFFFFF0D;
+
+  }
+
+  .portfoliomask:hover .pMask {
+    display: flex;
+  }
+
+  .barbottomborder {
+    border-bottom: 4px solid #F89222;
+  }
 }
 
 

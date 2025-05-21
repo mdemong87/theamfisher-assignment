@@ -10,7 +10,7 @@ const HeroLeftSideWrper = () => {
             <Sidebar />
             <div className="bg-[#000000] hidden lg:flex flex-col justify-end w-full">
                 <div className="flex justify-center">
-                    <Image height={1000} width={1000} src={profile} alt="Profile-picture" />
+                    <Image height={1000} width={1000} priority src={profile} alt="Profile-picture" />
                 </div>
                 <div className="bg-[#000000] herosocialboxshadow h-[75px] flex justify-center items-center gap-[16px]">
                     <SocialIcon link={"/"}>

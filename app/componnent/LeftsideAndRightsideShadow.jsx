@@ -1,7 +1,7 @@
 const LeftsideAndRightsideShadow = ({ IsLeft, children }) => {
 
     return (
-        <div className="w-[92px] relative">
+        <div className="hidden md:block w-[92px] relative">
             <div className="absolute flex flex-col h-full w-full -z-10">
                 <div className="w-full h-1/4">
                 </div>
