@@ -4,7 +4,7 @@ import SectionWraper from "./SectionWraper";
 
 const ContactSection = () => {
     return (
-        <section className="pb-[60px]">
+        <section className="pb-[90px] md:pb-[60px]">
             <SectionWraper>
                 <SectionTitle title="Contact" />
                 <div className="grid grid-cols-12 w-full gap-[23px]">
@@ -20,7 +20,7 @@ const ContactSection = () => {
                     </div>
                 </div>
 
-                <button className="mt-[32px] text-xl rounded-[10px] h-[48px] color-[#FFFFFF] text-center bgGredient w-full cursor-pointer">Send message</button>
+                <button className="mt-[32px] text-xl rounded-[10px] h-[48px] color-[#FFFFFF] text-center bgGredient w-full cursor-pointer hover:scale-105 transition-all duration-300">Send message</button>
             </SectionWraper>
         </section>
     )

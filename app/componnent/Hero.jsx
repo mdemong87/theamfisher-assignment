@@ -2,6 +2,7 @@ import CopyRight from "./CopyRight";
 import HeroContent from "./HeroContent";
 import HeroLeftSideWrper from "./HeroLeftSideWrper";
 import LeftsideAndRightsideShadow from "./LeftsideAndRightsideShadow";
+import SmallScreenNav from "./SmallScreenNav";
 
 const Hero = ({ children }) => {
     return (
@@ -17,6 +18,7 @@ const Hero = ({ children }) => {
                     </LeftsideAndRightsideShadow>
                 </div>
             </div>
+            <SmallScreenNav />
         </section>
     )
 }
