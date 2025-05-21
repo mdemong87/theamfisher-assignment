@@ -4,7 +4,7 @@ import SectionWraper from "./SectionWraper";
 
 const ContactSection = () => {
     return (
-        <section className="pb-[120px]">
+        <section className="pb-[60px]">
             <SectionWraper>
                 <SectionTitle title="Contact" />
                 <div className="grid grid-cols-12 w-full gap-[23px]">

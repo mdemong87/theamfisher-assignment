@@ -2,7 +2,7 @@ import DownloadCvBtn from "./DownloadCVBtn";
 
 const HeroContent = () => {
     return (
-        <div className=" w-full h-full flex items-center">
+        <div className=" w-full h-full flex items-center md:mt-[50px]">
             <div className="h-fit w-full md:w-[85%] pl-[24px] pr-[24px] md:pr-[0px] md:pl-[39px]">
                 <span className="textGredient text-sm sm:text-bsae font-bold pb-[12px]">INTRODUCTION</span>
                 <h1 className="font-bold text-4xl sm:text-5xl leading-[46px] sm:leading-[63px] pb-[18px]">

@@ -107,6 +107,18 @@ body {
   .barbottomborder {
     border-bottom: 4px solid #F89222;
   }
+
+  .btnClild {
+    background: linear-gradient(90deg, #F5BD4D 0%, #F89222 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btnParent:hover .btnClild {
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 

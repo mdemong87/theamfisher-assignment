@@ -1,4 +1,4 @@
-import TalktoMeBtn from "./TalktomeButton";
+import GetStartBtn from "./GetStartBtn";
 
 const PricingCard = ({ batch, price, items, delItemsIndex }) => {
     return (
@@ -8,7 +8,7 @@ const PricingCard = ({ batch, price, items, delItemsIndex }) => {
             </div>
             <div className="p-[24px] pb-[0px]">
                 <div className="pb-[30px] flex items-end gap-1">
-                    <h2 className="font-bold text-5xl text-whtie">${price}</h2>
+                    <h2 className="font-bold text-4xl sm:text-5xl text-whtie">${price}</h2>
                     <span className="text-whtie font-medium text-xl">/</span>
                     <span className="text-whtie font-medium text-lg">month</span>
                 </div>
@@ -36,7 +36,7 @@ const PricingCard = ({ batch, price, items, delItemsIndex }) => {
                     </ul>
                 </div>
                 <div>
-                    <TalktoMeBtn />
+                    <GetStartBtn />
                 </div>
             </div>
         </div>

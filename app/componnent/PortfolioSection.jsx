@@ -1,5 +1,4 @@
-import PortfoliocardsWraper from "./PortfolioCardsWraper";
-import PortfolioTabs from "./PortfolioTabs";
+import PortfolioTabandCardWraper from "./PortfolioTab&CardWraper";
 import SectionTitle from "./SectionTitle";
 import SectionWraper from "./SectionWraper";
 
@@ -8,10 +7,7 @@ const PortfolioSection = () => {
         <section>
             <SectionWraper>
                 <SectionTitle title={"Portfolio"} />
-                <div>
-                    <PortfolioTabs />
-                    <PortfoliocardsWraper />
-                </div>
+                <PortfolioTabandCardWraper />
             </SectionWraper>
         </section>
     )
