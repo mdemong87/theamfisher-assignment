@@ -13,19 +13,19 @@ const HeroLeftSideWrper = () => {
                     <Image height={1000} width={1000} priority src={profile} alt="Daryl-smith-Profile-picture" />
                 </div>
                 <div className="bg-[#000000] herosocialboxshadow h-[75px] flex justify-center items-center gap-[16px]">
-                    <SocialIcon link={"https://theamfisher-assignment.vercel.app/"}>
+                    <SocialIcon arialLabel={"facebook profile Link"} link={"https://theamfisher-assignment.vercel.app/"}>
                         <FaFacebookF />
                     </SocialIcon>
-                    <SocialIcon link={"https://theamfisher-assignment.vercel.app/"}>
+                    <SocialIcon arialLabel={"linkedin profile Link"} link={"https://theamfisher-assignment.vercel.app/"}>
                         <FaLinkedinIn />
                     </SocialIcon>
-                    <SocialIcon link={"https://theamfisher-assignment.vercel.app/"}>
+                    <SocialIcon arialLabel={"pinterest profile Link"} link={"https://theamfisher-assignment.vercel.app/"}>
                         <FaPinterestP />
                     </SocialIcon>
-                    <SocialIcon link={"https://theamfisher-assignment.vercel.app/"}>
+                    <SocialIcon arialLabel={"instagram profile Link"} link={"https://theamfisher-assignment.vercel.app/"}>
                         <FaInstagram />
                     </SocialIcon>
-                    <SocialIcon link={"https://theamfisher-assignment.vercel.app/"}>
+                    <SocialIcon arialLabel={"twitter profile Link"} link={"https://theamfisher-assignment.vercel.app/"}>
                         <FaTwitter />
                     </SocialIcon>
                 </div>
