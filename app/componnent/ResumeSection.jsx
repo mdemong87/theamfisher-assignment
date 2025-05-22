@@ -39,7 +39,7 @@ const ResumeSection = () => {
 
 
 
-                <div className="mt-[100px]">
+                <div className="mt-[60px] md:mt-[100px]">
                     <div>
                         <ResumeSectionSubTitle headline={"Work History"}>
                             <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
