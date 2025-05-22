@@ -55,10 +55,41 @@ The goal of this assignment was to develop a modern, responsive portfolio websit
 To run this project on your local machine:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/mdemong87/theamfisher-assignment.git
 
+---
+
+2. Move to the directory:
+
+   ```bash
+   cd teamfisher-assignment
 
 ---
+3. Install dependencies:
+
+   ```bash
+   npm install
+
+---
+
+4. Start Development Server:
+
+   ```bash
+   npm run dev
+
+---
+
+5. Open Your Browser at:
+
+   ```bash
+   https:locaclhost:3000
+
+---
+
+
+### happy coding....!
+
 
 ## Thank You So Much!
