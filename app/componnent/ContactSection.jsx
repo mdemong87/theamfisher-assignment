@@ -1,8 +1,25 @@
+'use client'
+
+import { useState } from "react";
 import Input from "./Input";
+import Loder from "./Loder";
 import SectionTitle from "./SectionTitle";
 import SectionWraper from "./SectionWraper";
 
 const ContactSection = () => {
+
+    const [isLoading, setisLoading] = useState(false);
+
+
+
+    //form submition function handle submit function is here
+    function handleSubmit() {
+        setisLoading(true);
+        setTimeout(() => {
+            setisLoading(false);
+        }, 2500);
+    }
+
     return (
         <section className="pb-[90px] md:pb-[60px]">
             <SectionWraper>
@@ -20,7 +37,14 @@ const ContactSection = () => {
                     </div>
                 </div>
 
-                <button className="mt-[32px] text-xl rounded-[10px] h-[48px] color-[#FFFFFF] text-center bgGredient w-full cursor-pointer hover:scale-105 transition-all duration-300">Send message</button>
+                <button disabled={isLoading} onClick={() => { handleSubmit() }} className="mt-[32px] text-xl rounded-[10px] h-[48px] color-[#FFFFFF] text-center bgGredient w-full cursor-pointer hover:scale-105 transition-all duration-300 flex justify-center items-center">
+
+
+                    {
+                        !isLoading ? "Send message" : <Loder />
+                    }
+
+                </button>
             </SectionWraper>
         </section>
     )
