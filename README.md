@@ -1,62 +1,64 @@
-# 🎨 Responsive Portfolio Website – Front-end Developer Assignment
+# 🌐 Portfolio Website - Frontend Developer Assignment
 
-> **Last Updated:** May 18, 2025  
-> **Deadline:** May 22, 2025, 11:00 AM
-
-This project is part of a front-end developer assessment focused on converting a Figma design into a high-performance, accessible, and responsive portfolio website using modern development tools.
+This project is a **responsive portfolio website** built as part of a frontend developer assignment. It transforms a provided Figma design into a high-performance, accessible, and SEO-friendly website using **Next.js** and **Tailwind CSS**.
 
 ---
 
-## 📌 Project Overview
+## 📖 Project Overview
 
-The goal of this project is to demonstrate proficiency in building a modern front-end application by implementing:
-
-- Pixel-perfect conversion of a Figma design.
-- Fully responsive design for all screen sizes.
-- Accessible and SEO-optimized structure.
-- High performance with 90+ Google PageSpeed score.
-- Clean, maintainable, and production-ready code.
+The goal of this assignment was to develop a modern, responsive portfolio website that adheres to best practices in performance, SEO, accessibility, and UI development. The site demonstrates proficiency in using the latest web technologies and frameworks.
 
 ---
 
-## 🛠 Tech Stack
+## ⚙️ Tech Stack
 
-- **Framework:** [Next.js](https://nextjs.org/) or [Astro](https://astro.build/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Version Control:** Git
-- **Hosting:** Vercel / Netlify / Cloudflare Pages
-
----
-
-## 🧪 Features & Highlights
-
-- 🔄 Fully responsive layout
-- ✨ Subtle animations and interactivity
-- 📈 Optimized for performance (Google PageSpeed 90+)
-- ♿ Accessibility checked with [WAVE](https://wave.webaim.org/)
-- 🔍 SEO best practices implemented
-- ✅ Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Hosting**: Vercel
+- **Version Control**: Git & GitHub
 
 ---
 
 ## 🚀 Live Site
 
-**Deployed URL:** [https://your-live-site-url.com](https://your-live-site-url.com)
+🔗 [Visit Live Website](https://theamfisher-assignment.vercel.app/)
 
 ---
 
-## 🧰 Getting Started
+## 🧪 Features Implemented
 
-### 📦 Prerequisites
+- ✅ Fully responsive layout (mobile, tablet, desktop)
+- ✅ Clean, semantic HTML5 structure
+- ✅ Accessible navigation and content
+- ✅ SEO-optimized (meta tags, alt attributes, semantic structure)
+- ✅ Smooth scroll and subtle animations
+- ✅ Deployed with Vercel
+- ✅ PageSpeed Score: 96 plus out of 100 (Mobile & Desktop)
+- ✅ Code is modular and maintainable
 
-- Node.js (v16+)
-- npm or yarn
-- Git
+---
 
-### 🚚 Installation
+## 📋 Performance & Accessibility Checks
 
-1. **Clone the repository**
+| Tool            | Status      |
+|-----------------|-------------|
+| Google PageSpeed | ✅ 96+ Score |
+| W3C Validator    | ✅ Valid HTML/CSS |
+| WAVE Tool        | ✅ Accessibility passed |
+| Cross-browser    | ✅ Chrome, Firefox, Safari, Edge |
+| Console Errors   | ✅ None |
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+---
+
+## 🛠️ Running Locally
+
+To run this project on your local machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mdemong87/theamfisher-assignment.git
+
+
+---
+
+## Thank You So Much!
