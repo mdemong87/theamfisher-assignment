@@ -11,7 +11,7 @@ const ContactSection = () => {
                     <Input type={"text"} title={"Fast Name*"} nameId={"fasttName"} />
                     <Input type={"text"} title={"Last Name*"} nameId={"lastName"} />
                     <Input type={"email"} title={"Email*"} nameId={"email"} />
-                    <Input type={"phone"} title={"Phone*"} nameId={"phone"} />
+                    <Input type={"tel"} title={"Phone*"} nameId={"phone"} />
                 </div>
                 <div className="w-full flex flex-col pt-[23px]">
                     <label className="font-medium text-lg md:text-xl pb-[10px] text-[#FFFFFF]" htmlFor='Message'>Message*</label>

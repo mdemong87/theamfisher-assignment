@@ -4,7 +4,7 @@ import Image from "next/image";
 const BlogCard = ({ title, tag, imageUrl }) => {
     return (
         <div className="w-full h-fit bg-[#000000] overflow-hidden">
-            <Image src={imageUrl} alt={title} className="w-full" />
+            <Image src={imageUrl} alt={`blog_card_image_for_${title}`} className="w-full" />
             <div className="p-[24px]">
                 <span className="text-xs text-[#747474] font-normal">{tag}</span>
                 <h2 className="text-xl leading-[25px] font-bold text-lg text-[#FFFFFF] pt-[10px]">
